@@ -59,3 +59,8 @@ For more information about ReIsoSeg, please read the following paper （Accepted
   keywords={Anisotropic;Decoding;Anisotropic magnetoresistance;Convolution;Three-dimensional displays;Image resolution;Transformers;<br />Optimization;Image restoration;Synapses;Anisotropy;deep learning;electron microscopy;re-isotopic loss;volume segmentation},<br />
   doi={10.1109/TMI.2024.3511599}<br />
   }
+
+## Acknowledgements
+
+nnUNet(https://github.com/MIC-DKFZ/nnUNet)
+MNet (https://github.com/zfdong-code/MNet)
