@@ -22,4 +22,4 @@ For more information about ReIsoSeg, please read the following paper （Accepted
 
 ## 
 
-<img src="https://github.com/fenglingbai/ReIsoSeg/blob/main/fig/han2.pdf" width="800px"> 
+<img src="https://github.com/fenglingbai/ReIsoSeg/blob/main/fig/p0_pipline.png" width="800px"> 
