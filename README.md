@@ -14,13 +14,13 @@ Overview of the proposed ReIsoSeg: it enforces the feature re-isotropy through a
 
 ## The architecture composition of ReIsoSeg
 
-<img src="https://github.com/fenglingbai/ReIsoSeg/blob/main/fig/p2_ReIsoSeg.png" width="700px"> 
+<img src="https://github.com/fenglingbai/ReIsoSeg/blob/main/fig/p2_ReIsoSeg.png" width="800px"> 
 
 ReIsoSeg architecture: the PI Net and a series of feature transformations (e.g., axial permutation) constitute the PI module in the isotropic branch, and they enforce feature re-isotropy through self-supervision, which increases the segmentation performance of the encoder-decoder.
 
 ## Visualization of 3D Segmentation Results
 
-<img src="https://github.com/fenglingbai/ReIsoSeg/blob/main/fig/p6_results_3d3.png" width="700px"> 
+<img src="https://github.com/fenglingbai/ReIsoSeg/blob/main/fig/p6_results_3d3.png" width="800px"> 
 
 Partial results of suborganelle volume segmentation.
 
