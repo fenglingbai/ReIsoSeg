@@ -6,7 +6,9 @@ ReIsoSeg is a novel 3D segmentation framework aimed at overcoming the anisotropi
 
 ## The basic idea of ReIsoSeg
 
-<img src="https://github.com/fenglingbai/ReIsoSeg/blob/main/fig/p0_pipline.png" width="600px"> 
+<div  align="center">    
+	<img src="https://github.com/fenglingbai/ReIsoSeg/blob/main/fig/p0_pipline.png" width = "600px" />
+</div>
 
 Overview of the proposed ReIsoSeg: it enforces the feature re-isotropy through an implicit self-supervised manner, increasing the performance of the encoder and decoder for superior segmentation.
 
