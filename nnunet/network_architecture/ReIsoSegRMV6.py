@@ -14,7 +14,7 @@
 
 import os
 import sys
-# 将当前路径添加到系统路径
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__)))))
 from copy import deepcopy
 from nnunet.utilities.nd_softmax import softmax_helper
@@ -610,24 +610,6 @@ class ReIsoSeg(SegmentationNetwork):
             # return self.outputs[0](x10_iso)
             return self.outputs[3](x10)
 
-
-        # ######################## !!!!!!
-        # if self._deep_supervision and self.do_ds:
-        #     features = [x9, x8, x7, x6, x9_ani, x8_ani, x7_ani, x6_ani]
-        #     return tuple([self.outputs[0](features[0]), 
-        #                   self.outputs[1](features[1]),
-        #                   self.outputs[2](features[2]),
-        #                   self.outputs[3](features[3]),
-        #                   self.outputs[0](features[4]),
-        #                   self.outputs[1](features[5]),
-        #                   self.outputs[2](features[6]),
-        #                   self.outputs[3](features[7])])
-        #     # return  tuple([self.conv_class[0](x9)])
-        # else:
-        #     return self.outputs[0](x9)
-
-
-
 if __name__ == '__main__':
     # image_size = (16, 320, 320)
     image_size = (16, 320, 320)
@@ -640,6 +622,5 @@ if __name__ == '__main__':
     print([e.shape for e in output])
     from thop import profile
     flops, params = profile(ReIsoSeg, inputs=(input, ))
-    print('FLOPs (G): %.2f, Params (M): %.2f'%(flops/1e9, params/1e6)) #flops单位G，para单位M
-    # 942.1717504 1.694315
+    print('FLOPs (G): %.2f, Params (M): %.2f'%(flops/1e9, params/1e6)) 
     print('ok')
