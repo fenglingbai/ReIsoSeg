@@ -46,6 +46,12 @@ Besides, in line 74, you can change  self.ani_scale to adapt to more customized 
 
 ``` python ReIsoSeg/nnunet/run/run_training_reisoseg.py 3d_fullres ReIsoSegRMA*V6Trainer TaskXXX_MYTASK FOLD --npz ```
 
+## Datasets
+
+AC3AC4: https://lichtman.rc.fas.harvard.edu/vast/
+CREMI: https://cremi.org/data/
+MitoEM: https://mitoem.grand-challenge.org/
+
 ## Cite
 For more information about ReIsoSeg, please read the following paper （Accepted by TMI 2024）: 
 <br />
